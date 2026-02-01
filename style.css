@@ -186,6 +186,29 @@ body {
     margin-bottom: 1rem;
 }
 
+.project-guide {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background: #f0f7ff;
+    border-left: 3px solid #2563eb;
+    border-radius: 4px;
+}
+
+.project-guide strong {
+    color: #2563eb;
+}
+
+.project-guide em {
+    display: block;
+    margin-top: 0.3rem;
+    font-size: 0.85rem;
+    color: #888;
+}
+
 .project-tags {
     display: flex;
     gap: 0.5rem;
