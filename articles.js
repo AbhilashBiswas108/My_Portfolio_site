@@ -14,7 +14,7 @@ const articles = {
 </p>
 
             <blockquote>
-                "You can add meaningful quotes that relate to your topic here."
+                "You never know."
             </blockquote>
 
             <h2>Conclusion</h2>
@@ -57,7 +57,7 @@ Developing a scientific temperament is not merely about acquiring knowledge or e
                 curious and kind;Remember and find<br><br>
                 
                 Now, finger on lips, head down;<br>
-                ask questions and I’m a foal,<br>
+                ask questions and I’m a fool,<br>
                 just stories and ideas, loosing<br>
                 the fresh air; help if you’ve any tool<br>
             </p>
