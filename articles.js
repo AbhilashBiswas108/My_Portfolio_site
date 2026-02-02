@@ -6,29 +6,19 @@ const articles = {
         author: "Abhilash Biswas",
         content: `
             <h2>Introduction</h2>
-            <p>This is your first article "Can I Know?". Replace this with your actual article content about analyzing the self.</p>
+            <p>This text examines the question “Can I know?” by exploring knowing not as the accumulation of facts, but as a fundamental movement of the being itself. It analyzes how hunger for knowledge, memory, and the construction of time generate a sense of fragmentation, and how recognition of this process can reorient the being toward immediacy rather than external objects.</p>
             
-            <p>Write your thoughts and analysis here. You can write as much as you want.</p>
 
             <h2>Main Content</h2>
-            <p>Add your main content here. This is just placeholder text that you should replace with your actual article content.</p>
-
-            <h3>Key Points</h3>
-            <p>Here are some points you might want to discuss:</p>
-            <ul>
-                <li>First important point about self-analysis</li>
-                <li>Second key insight or observation</li>
-                <li>Third thought or conclusion</li>
-            </ul>
+            <p>This inquiry begins with a fundamental epistemological question: Can I know? This question does not concern the accumulation of information or the scope of what may be known, but rather the conditions under which knowing itself arises and whether it can ever attain completion. The being is observed as existing in a state of constant movement. This movement manifests as the reception of inputs that may be unidimensional, directed toward a single object, or multidimensional, distributed across multiple objects. In both cases, the movement is driven by a persistent orientation toward knowing. This orientation does not present itself as fulfillment, but as lack. At first glance, this movement may be interpreted as an attempt to fill a perceived void articulated in terms of what, which, and why. Yet such an interpretation proves insufficient, for each act of grasping an object of knowledge fails to produce satisfaction. Instead, it intensifies the original impulse. This leads to a more radical formulation: the being is not merely subject to hunger; rather, the being is this hunger. The movement toward objects is not an external activity appended to an otherwise stable self, but a constitutive feature of its mode of existence. If hunger defines the being, the question arises whether any object is capable of terminating this movement. The domain of objects appears, in principle, to be infinite. Consequently, no finite sequence of acquisitions or acts of knowing can bring the movement to rest. The being remains structurally oriented toward seeking, regardless of what is attained. This persistent orientation is accompanied by a subjective experience of fragmentation, a sense of being divided or separated from an assumed totality. The inquiry then turns toward the origin of this fragmentation. Is it a fundamental condition of the being, or does it arise from a misrecognition of its own processes? The analysis suggests that this experience is closely related to the role of memory and the construction of time. Time does not appear here as an independent or autonomous dimension, but as a function of memory that generates a sense of continuity between what was and what is. Memory provides the impression of a flowing self by linking present experience to representations of the past. However, this linkage introduces a tension. The present moment is immediate and fully actual, whereas memory consists of representations that no longer possess the same ontological status. When the being compares what is with what is remembered, it creates a division within itself. Hunger emerges from this comparison, as the being attempts to recover, through objects and experiences, a coherence that it believes has been lost. In this sense, fragmentation is not an inherent property of the being, but a product of its attachment to memory as the ground of identity. The being holds to unreal images of itself and, in doing so, disperses its sense of totality across what is no longer present. The critical possibility, then, is recognition. If the being can recognize its own movement toward the false—toward representations in place of immediacy—it may remain fully situated in the present moment. In such a state, the compulsion to seek resolution through external objects diminishes, and the hunger loses its outward-directed character. This recognition gives rise to a further question: what originally led the being to identify with memory rather than immediacy? One possible account lies in conditioning, in the gradual formation of habits of thought and perception that encourage the being to locate itself in accumulated representations rather than in lived presence. When the being confronts this question, it encounters a limit to its explanatory capacity and responds simply: I do not know. Yet this admission marks a decisive transformation. The outward-directed movement toward objects of knowledge is suspended, and in its place emerges a singular movement directed toward the self. The hunger that once sought satisfaction in the world now turns inward, seeking to understand itself as hunger and as movement. At this point, the being may experience a form of saturation, not as a conclusion but as a pause. The longing to know persists, yet it no longer disperses itself across an infinite field of objects. Instead, it remains oriented toward the self as both the source and the site of inquiry. The question “Can I know?” thus remains open, not as a problem to be solved, but as a movement to be continuously examined.
+</p>
 
             <blockquote>
                 "You can add meaningful quotes that relate to your topic here."
             </blockquote>
 
             <h2>Conclusion</h2>
-            <p>Wrap up your article with a conclusion that summarizes your thoughts about knowing the self.</p>
-
-            <p>Remember to replace all of this placeholder text with your actual article content!</p>
+            <p>The inquiry concludes that knowing cannot be finalized through any finite object or accumulation of experience. Instead, it remains an open and continuous movement, one that turns back upon the self. By recognizing the role of memory and misidentification in producing hunger and fragmentation, the being does not resolve the question of knowing, but learns to remain present with it as an ongoing process of awareness rather than a problem to be solved.</p>
         `
     },
     2: {
@@ -37,35 +27,20 @@ const articles = {
         author: "Abhilash Biswas",
         content: `
             <h2>Introduction</h2>
-            <p>As a human of the 21st century and a student of science, developing a scientific temperament is crucial. This article explores why and how we can cultivate this important mindset.</p>
+            <p>This text outlines the scientific method as a progression from observing natural phenomena to analyzing their components, introducing axioms, and constructing theoretical frameworks grounded in logic, mathematics, and empirical validation. It emphasizes how models and measurable quantities connect abstract reasoning to observable reality.</p>
+            <h2>What is meant when something is said to be “scien- tific”</h2>
+            <p> A phenomenon may be understood as a fact of nature—for example, the growth of trees or the reflection of light by a mirror. Scientific inquiry begins when we move beyond mere observation and attempt to understand the underlying processes governing such phenomena. This process involves analyzing the phenomenon by breaking it into conceptual com- ponents. This “breaking down” does not occur in reality itself but within our cognitive framework, particularly through memory and reasoning. We then attempt to explain these components through causality: What caused this? How did it occur? Why did it occur? However, the question of “why” leads to an infinite regression. At some point, we reach the limits of explanation. Because of this limitation, we introduce axioms or postulates— fundamental assumptions that are taken as given. These postulates form the foundation upon which a theoretical framework is constructed, step by step, through rational and logical reasoning. At the highest level of this framework lies the result—the point at which the theory connects back to the observable action of nature. A valid theory must ultimately correspond to empirical reality. Within this analytical process, each component involves fundamental physical quantities that are also treated as given and assigned measurable values. These quantities act as inputs, and variations in their magnitudes lead to variations in the output. We attempt to formulate mathematical, analytical, or computational models—under specific necessary assumptions—such that the results of these models correspond to the real, observable phenomenon. When this rational and structured method successfully explains or predicts natural be- havior, we call it a theory. When it is repeatedly tested and validated, it becomes part of established scientific knowledge. This, in essence, is what it means for something to be scientific.</p>
 
-            <p>Replace this section with your actual thoughts on scientific temperament.</p>
+            
+            <h2>What does it mean to have a scientific temperament?</h2>
+            <p>A scientific temperament implies that any mental or intellectual activity follows a structured sequence of rational analysis. It acknowledges that there are many aspects of reality that remain unknown, but it also recognizes that prematurely labeling or assuming understanding can halt genuine inquiry. Scientific thinking is inherently self-correcting. It is based on feedback, revision, and continuous testing. This method allows us not only to explain phenomena but also to interact with them, refine our interpretations, and expand our understandin</p>
 
-            <h2>Why Scientific Temperament Matters</h2>
-            <p>Discuss the importance of scientific thinking in modern society:</p>
-            <ol>
-                <li>First reason why it's important</li>
-                <li>Second benefit of scientific thinking</li>
-                <li>Third aspect of scientific temperament</li>
-            </ol>
-
-            <h2>How to Develop Scientific Temperament</h2>
-            <p>Share practical steps and methods for developing scientific thinking.</p>
-
-            <h3>Practical Approaches</h3>
-            <ul>
-                <li>Question everything with curiosity</li>
-                <li>Rely on evidence and data</li>
-                <li>Be open to changing your mind</li>
-                <li>Think critically and logically</li>
-            </ul>
-
-            <blockquote>
-                "Science is a way of thinking much more than it is a body of knowledge." - Carl Sagan
-            </blockquote>
-
+            <h3>How can one develop a scientific temperament?</h3>
+            <p>Developing a scientific temperament does not simply mean reading scientific books, earning a doctoral degree, organizing science festivals, or using technological devices. While these are valuable, the process is far deeper and more personal. To develop implies first realizing that one may not always be using a rigorous or rational method of thinking. This may arise from biases, conditioning, or the tendency to accept ideas at a superficial level. The first step is self-awareness: recognizing these limitations. The second step is self- questioning: asking whether one’s conclusions are genuinely rational or shaped by bias. The third step is applying this reflective and critical method consistently in daily life. This internal process is central. Without it, external engagement with science risks becoming mechanical rather than truly scientific in spirit. We will explore this process further through an example in the following section.</P>
             <h2>Conclusion</h2>
-            <p>Summarize your thoughts on building a scientific temperament and its importance for students and society.</p>
+            <p>**Conclusion:**
+Developing a scientific temperament is not merely about acquiring knowledge or engaging with scientific tools, but about cultivating a disciplined way of thinking rooted in self-awareness, critical inquiry, and continuous revision. By grounding our understanding in rational analysis, empirical validation, and openness to uncertainty, we strengthen our capacity to distinguish evidence from assumption and reduce the influence of bias, misconception, and pseudoscience in both personal and social life.
+</p>
         `
     },
     3: {
@@ -75,27 +50,16 @@ const articles = {
         content: `
             <h2>Remember?</h2>
             
-            <p style="font-style: italic; font-size: 1.2rem; line-height: 2;">
-                [Replace this with your poem]<br><br>
+            <p style="font-style: italic; font-size: 1.2rem; line-height: 2;">                
+                Remember when you were four<br>
+                eyes’ longing to know more,<br>
+                radiant smile, vibrant mind,<br>
+                curious and kind;Remember and find<br><br>
                 
-                Write your poem here,<br>
-                Line by line,<br>
-                Express your thoughts,<br>
-                In verse and rhyme.<br><br>
-                
-                Each stanza flows,<br>
-                With meaning deep,<br>
-                Memories cherished,<br>
-                Forever to keep.<br><br>
-                
-                This is just a placeholder,<br>
-                For your creative voice,<br>
-                Replace these words,<br>
-                With your poetic choice.
-            </p>
-
-            <p style="margin-top: 2rem; font-size: 0.95rem; color: #666;">
-                <em>Note: Replace the placeholder text above with your actual poem "Remember?"</em>
+                Now, finger on lips, head down;<br>
+                ask questions and I’m a foal,<br>
+                just stories and ideas, loosing<br>
+                the fresh air; help if you’ve any tool<br>
             </p>
         `
     }
