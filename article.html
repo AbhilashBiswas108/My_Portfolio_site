@@ -1,80 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Article viewer">
-    <title>Article - Abhilash Biswas</title>
+
+    <meta name="description" content="Articles by Abhilash Biswas">
+
+    <title>Articles - Abhilash Biswas</title>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="article-style.css">
 </head>
+
 <body>
+
     <!-- Navigation -->
     <nav class="nav">
         <div class="container">
+
             <div class="nav-content">
-                <a href="index.html" class="logo">← Back to Portfolio</a>
+
+                <a href="index.html" class="logo">
+                    ← Back to Portfolio
+                </a>
+
                 <ul class="nav-menu">
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#projects">Projects</a></li>
-                    <li><a href="index.html#articles">Articles</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
+                    <li>
+                        <a href="index.html#about">About</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#projects">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#articles">Articles</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#contact">Contact</a>
+                    </li>
                 </ul>
+
             </div>
+
         </div>
     </nav>
 
+
     <!-- Article Content -->
-    <article class="article-content">
+    <main class="article-content">
+
         <div class="container">
+
             <div id="article-display">
                 <!-- Article will be loaded here by JavaScript -->
             </div>
+
         </div>
-    </article>
+
+    </main>
+
 
     <!-- Article Navigation -->
     <section class="article-navigation">
+
         <div class="container">
+
             <h3>Other Articles</h3>
+
             <div class="article-nav-grid">
-                <div class="article-nav-card" onclick="loadArticle(1)">
+
+                <!-- Article 1 -->
+                <div
+                    class="article-nav-card"
+                    onclick="loadArticle(1)"
+                    role="button"
+                    tabindex="0"
+                >
                     <h4>Can I Know?</h4>
-                    <p class="nav-date">January 28, 2026</p>
-                    <p>I have tried to analyse the self.</p>
+
+                    <p class="nav-date">
+                        January 28, 2026
+                    </p>
+
+                    <p>
+                        I have tried to analyse the self.
+                    </p>
                 </div>
 
-                <div class="article-nav-card" onclick="loadArticle(2)">
-                    <h4>Why and How to develop a Scientific Temperament</h4>
-                    <p class="nav-date">February 01, 2026</p>
-                    <p>As a human of 21st Century and a student of Science I must try and build a scientific temperament</p>
+
+                <!-- Article 2 -->
+                <div
+                    class="article-nav-card"
+                    onclick="loadArticle(2)"
+                    role="button"
+                    tabindex="0"
+                >
+                    <h4>
+                        Why and How to develop a Scientific Temperament
+                    </h4>
+
+                    <p class="nav-date">
+                        February 01, 2026
+                    </p>
+
+                    <p>
+                        As a human of 21st Century and a student of Science,
+                        I must try and build a scientific temperament.
+                    </p>
                 </div>
 
-                <div class="article-nav-card" onclick="loadArticle(3)">
+
+                <!-- Article 3 -->
+                <div
+                    class="article-nav-card"
+                    onclick="loadArticle(3)"
+                    role="button"
+                    tabindex="0"
+                >
                     <h4>Remember?</h4>
-                    <p class="nav-date">February 01, 2026</p>
-                    <p>A short poem</p>
+
+                    <p class="nav-date">
+                        February 01, 2026
+                    </p>
+
+                    <p>
+                        A short poem.
+                    </p>
                 </div>
-                
-                <div class="article-nav-card" onclick="loadArticle(4)">
-                    <h4>Civic Sense- Apparently an Advanced Course?</h4>
-                    <p class="nav-date">August 08 2026</p>
-                    <p>My thoughts and experience</p>
+
+
+                <!-- Article 4 -->
+                <div
+                    class="article-nav-card"
+                    onclick="loadArticle(4)"
+                    role="button"
+                    tabindex="0"
+                >
+                    <h4>
+                        Civic Sense: Apparently an Advanced Course
+                    </h4>
+
+                    <p class="nav-date">
+                        August 20, 2026
+                    </p>
+
+                    <p>
+                        My thoughts and experience.
+                    </p>
                 </div>
+
             </div>
+
         </div>
+
     </section>
+
 
     <!-- Footer -->
     <footer class="footer">
+
         <div class="container">
-            <p>&copy; 2026 Abhilash Biswas. All rights reserved.</p>
+
+            <p>
+                &copy; 2026 Abhilash Biswas. All rights reserved.
+            </p>
+
         </div>
+
     </footer>
 
+
+    <!-- Article JavaScript -->
+    <!-- IMPORTANT: this must match the actual filename -->
+    <script src="articles.js"></script>
+
+</body>
+
+</html>
+
+Important: Your folder should contain:
+
+index.html
+article.html
+articles.js
+style.css
+article-style.css
+
+If your JavaScript file is actually named "article.js" (singular), change the last line to:
+
+<script src="article.js"></script>
+
+The empty article area is most likely caused by that filename mismatch or the missing comma between Articles 3 and 4 in your JavaScript.
     <script src="articles.js"></script>
 </body>
 </html>
