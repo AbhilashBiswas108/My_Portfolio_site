@@ -1,4 +1,7 @@
-/* Article Content Section */
+/* =========================================================
+   ARTICLE CONTENT
+========================================================= */
+
 .article-content {
     padding: 5rem 0;
     background: #fff;
@@ -9,6 +12,11 @@
     max-width: 800px;
 }
 
+
+/* =========================================================
+   ARTICLE TITLE
+========================================================= */
+
 #article-display h1 {
     font-size: 2.5rem;
     color: #2563eb;
@@ -16,13 +24,20 @@
     line-height: 1.3;
 }
 
+
+/* =========================================================
+   ARTICLE META
+========================================================= */
+
 .article-meta {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
     border-bottom: 2px solid #e5e7eb;
+
     color: #666;
+
     font-size: 0.95rem;
 }
 
@@ -32,30 +47,56 @@
     gap: 0.5rem;
 }
 
+
+/* =========================================================
+   ARTICLE BODY
+========================================================= */
+
 #article-display .article-body {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #333;
 }
 
+
+/* =========================================================
+   HEADINGS
+========================================================= */
+
 #article-display .article-body h2 {
     font-size: 1.8rem;
     color: #2563eb;
-    margin-top: 2rem;
+
+    margin-top: 2.5rem;
     margin-bottom: 1rem;
+
+    line-height: 1.4;
 }
 
 #article-display .article-body h3 {
     font-size: 1.4rem;
     color: #667eea;
-    margin-top: 1.5rem;
+
+    margin-top: 2rem;
     margin-bottom: 0.8rem;
+
+    line-height: 1.4;
 }
+
+
+/* =========================================================
+   PARAGRAPHS
+========================================================= */
 
 #article-display .article-body p {
     margin-bottom: 1.5rem;
     text-align: justify;
 }
+
+
+/* =========================================================
+   LISTS
+========================================================= */
 
 #article-display .article-body ul,
 #article-display .article-body ol {
@@ -67,14 +108,263 @@
     margin-bottom: 0.5rem;
 }
 
+
+/* =========================================================
+   BLOCKQUOTES
+========================================================= */
+
 #article-display .article-body blockquote {
     border-left: 4px solid #2563eb;
+
     padding-left: 1.5rem;
+
     margin: 2rem 0;
+
     font-style: italic;
+
     color: #555;
 }
 
+
+/* =========================================================
+   HORIZONTAL LINE
+========================================================= */
+
+#article-display .article-body hr {
+    border: none;
+
+    border-top: 1px solid #e5e7eb;
+
+    margin: 3rem 0;
+}
+
+
+/* =========================================================
+   LOADING MESSAGE
+========================================================= */
+
+.loading {
+    text-align: center;
+
+    color: #666;
+
+    font-size: 1.1rem;
+
+    padding: 3rem 0;
+}
+
+
+/* =========================================================
+   ARTICLE ERROR
+========================================================= */
+
+.article-error {
+    text-align: center;
+
+    padding: 4rem 1rem;
+}
+
+.article-error h2 {
+    color: #2563eb;
+
+    margin-bottom: 1rem;
+}
+
+.article-error p {
+    color: #666;
+
+    margin-bottom: 1.5rem;
+}
+
+.article-error a {
+    color: #2563eb;
+
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+
+/* =========================================================
+   OTHER ARTICLES
+========================================================= */
+
+.article-navigation {
+    padding: 4rem 0;
+
+    background: #f8fafc;
+}
+
+.article-navigation h3 {
+    text-align: center;
+
+    font-size: 2rem;
+
+    margin-bottom: 2rem;
+}
+
+.article-nav-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 1.5rem;
+}
+
+.article-nav-card {
+    background: #fff;
+
+    padding: 1.5rem;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.08);
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.article-nav-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.article-nav-card h4 {
+    color: #2563eb;
+
+    font-size: 1.2rem;
+
+    margin-bottom: 0.7rem;
+}
+
+.article-nav-card p {
+    color: #555;
+
+    line-height: 1.6;
+}
+
+.article-nav-card .nav-date {
+    color: #777;
+
+    font-style: italic;
+
+    margin-bottom: 0.7rem;
+}
+
+.article-nav-card .read-more {
+    display: inline-block;
+
+    margin-top: 0.8rem;
+
+    color: #2563eb;
+
+    font-size: 0.9rem;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .article-content {
+        padding: 3rem 1rem;
+    }
+
+    .article-content .container {
+        max-width: 100%;
+    }
+
+    #article-display h1 {
+        font-size: 2rem;
+    }
+
+    .article-meta {
+        gap: 0.8rem;
+
+        flex-wrap: wrap;
+
+        font-size: 0.9rem;
+    }
+
+    #article-display .article-body {
+        font-size: 1rem;
+
+        line-height: 1.75;
+    }
+
+    #article-display .article-body h2 {
+        font-size: 1.5rem;
+
+        margin-top: 2rem;
+    }
+
+    #article-display .article-body h3 {
+        font-size: 1.25rem;
+    }
+
+    #article-display .article-body p {
+        text-align: left;
+    }
+
+    #article-display .article-body blockquote {
+        margin: 1.5rem 0;
+
+        padding-left: 1rem;
+    }
+
+    .article-navigation {
+        padding: 3rem 1rem;
+    }
+
+    .article-navigation h3 {
+        font-size: 1.7rem;
+    }
+
+    .article-nav-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE PHONES
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .article-content {
+        padding: 2.5rem 1rem;
+    }
+
+    #article-display h1 {
+        font-size: 1.75rem;
+    }
+
+    #article-display .article-body {
+        font-size: 0.98rem;
+    }
+
+    .article-meta {
+        font-size: 0.85rem;
+    }
+
+    .article-nav-card {
+        padding: 1.2rem;
+    }
+
+}
 #article-display .article-body code {
     background: #f3f4f6;
     padding: 0.2rem 0.5rem;
