@@ -62,6 +62,277 @@ const articles = {
             </p>
         `
     }
+
+        4: {
+        title: "Civic Sense: Apparently an Advanced Course",
+        date: "August 20, 2026",
+        author: "Abhilash Biswas",
+        content: `
+            <p>I don't even know how to start writing this. I don't know what I expect this to achieve. Will it solve anything? Will anyone actually care? Or is this just my own form of mental therapy—to dump somewhere all the anger, irritation, frustration and disgust that have been accumulating these past few months?</p>
+
+            <p>Maybe it is all of these things.</p>
+
+            <p>What I want to talk about is <strong>civic sense</strong>.</p>
+
+            <p>And apparently, in our university, civic sense is a soft core course that very few people have chosen. I am not talking about one or two people. That would be too easy. I am talking about a surprisingly large section of students who either don't seem to have basic civic sense or, more impressively, have it but have decided not to use it.</p>
+
+            <p>As students, we are supposedly educated people. We are here to study, build careers, conduct research, become professionals and, apparently, change the world. But before changing the world, perhaps we could start with the revolutionary idea of <strong>not throwing garbage on the floor.</strong></p>
+
+            <p>I came to a university expecting that education would at least have some visible effect on the people here. Living on campus has taught me an important lesson:</p>
+
+            <p><strong>Education and common sense are apparently two completely different departments, and they don't seem to communicate with each other.</strong></p>
+
+            <h2>Hostels: Where Civilization Goes to Take a Break</h2>
+
+            <p>Let's start with the hostels. The condition of some of our hostels is honestly astonishing. Sometimes it feels worse than a zoo. And I apologise to the animals for the comparison. At least animals don't deliberately leave their surroundings looking like a landfill and then walk away as if nothing happened.</p>
+
+            <p>Bathrooms, lifts, terraces, corridors—basically every shared space has the potential to become a waste-disposal experiment. Garbage is thrown around. Things are left wherever people feel like leaving them. Common spaces are treated as though they belong to some mysterious third party whose job is to clean up after us.</p>
+
+            <p>But here's the funny part:</p>
+
+            <p><strong>We live here.</strong></p>
+
+            <p>These are our hostels. Nobody is asking us to perform advanced environmental engineering. Just don't turn the place where you live into a dumping ground.</p>
+
+            <p>Apparently, that is too ambitious.</p>
+
+            <h2>Reading Hall: Silent Study, Loud Humanity</h2>
+
+            <p>Then comes the reading hall. A place specifically designed for reading and studying. You would think the concept would be fairly straightforward:</p>
+
+            <p><strong>You enter → you study → you remain quiet → you leave.</strong></p>
+
+            <p>Apparently, that is an unnecessarily complicated algorithm.</p>
+
+            <p>Some people come to enjoy the AC. Fine. I have no objection. If the AC is the primary attraction, congratulations—you have found an expensive library-shaped cooling centre. But please don't turn it into a social club.</p>
+
+            <p>Phones ring.</p>
+            <p>They ring again.</p>
+
+            <p>Someone's ringtone is loud enough to conduct its own seminar. And after the phone rings, instead of immediately silencing it, the person sometimes casually answers it and starts having a conversation.</p>
+
+            <p>Then there are whispers. Then slightly louder whispers. Then laughter. And before you know it, the reading hall has evolved from a place for reading into a place where everyone except the person trying to study is having a wonderful time.</p>
+
+            <p>And then we have the <strong>seat reservation system.</strong></p>
+
+            <p>Except there isn't one. Because apparently some people have invented their own.</p>
+
+            <p>Leave your laptop.<br>
+            Leave your bag.<br>
+            Leave your book.<br>
+            Leave your water bottle.<br>
+            Disappear.</p>
+
+            <p>One hour.<br>
+            Two hours.<br>
+            Three hours.<br>
+            Four hours.</p>
+
+            <p>At this point, I am not sure whether you are studying or whether your belongings are pursuing a PhD in seat occupation.</p>
+
+            <p>Half the seats may be empty, but every table has someone's belongings guarding it like a territorial animal.</p>
+
+            <p>And yes, I understand that sometimes you need to leave for lunch, tea, an urgent matter, or whatever else. But if you disappear for four or five hours, perhaps the seat has ceased to be <strong>your seat.</strong></p>
+
+            <p>It has become <strong>an abandoned archaeological site.</strong></p>
+
+            <p>Meanwhile, someone else is standing outside waiting for a place to study. This is not about enforcing rules for the sake of rules. It is about understanding that other people exist.</p>
+
+            <p><strong>A surprisingly advanced concept, apparently.</strong></p>
+
+            <h2>University Roads: Welcome to the Formula One Campus</h2>
+
+            <p>Then we have the roads.</p>
+
+            <p>Ah, the roads.</p>
+
+            <p>At this point, I am convinced that the university is secretly conducting a Formula One training programme.</p>
+
+            <p>People drive at 50–60 km/h, sometimes more, on roads where students are constantly walking, crossing and moving between departments, hostels and canteens.</p>
+
+            <p>And then there are the motorcycles. Some people apparently believe that a perfectly functional motorcycle is incomplete unless its silencer is loud enough to announce its arrival to the entire campus.</p>
+
+            <p>Why quietly arrive at a destination when you can first inform the physics department, chemistry department, hostel block and possibly the neighbouring district?</p>
+
+            <p>Some modified KTMs and Bullets sound less like vehicles and more like <strong>mobile declarations of war against silence.</strong></p>
+
+            <p>And then comes the driving.</p>
+
+            <p>Wrong side of the road.<br>
+            Sudden overtaking.<br>
+            High speed near crossings.<br>
+            Speeding near the canteen.<br>
+            Speeding where students are walking.</p>
+
+            <p>The university buses are another story. These are vehicles carrying large numbers of students, yet sometimes they are driven with a level of aggression that makes you wonder whether the driver is transporting students or participating in a rally.</p>
+
+            <p>And the students aren't exactly helping either. The moment the bus arrives, everyone rushes towards it.</p>
+
+            <p>Pushing.<br>
+            Pulling.<br>
+            Dragging.<br>
+            Trying to get inside first.<br>
+            Trying to get a seat.</p>
+
+            <p>The desperation is impressive. Sometimes it looks like everyone has just been informed that this is the <strong>last meal available for the next seven days.</strong></p>
+
+            <p>Can't we just let people get down first?</p>
+
+            <p><strong>No.</strong></p>
+
+            <p>Apparently, that would violate the ancient campus tradition of <strong>“whoever reaches the door first wins.”</strong></p>
+
+            <p>Then we have the famous three-, four- and sometimes even five-person motorcycle.</p>
+
+            <p>One bike.<br>
+            Five people.</p>
+
+            <p>Because apparently motorcycles have recently been upgraded to public transport.</p>
+
+            <p>I can understand an emergency. If someone genuinely has no alternative, that's different. But doing it for fun, at midnight.</p>
+
+            <p>Once there was a two wheeler night rally horning as they went through the hostel road at 3 o'clock, which must have been an alarm for a coming cyclone. Right?</p>
+
+            <p>That's not convenience.</p>
+
+            <p>That's just turning a vehicle into a <strong>group project nobody asked for.</strong></p>
+
+            <p>And helmets?</p>
+
+            <p>Apparently helmets are optional.</p>
+
+            <p>Coming from where I come from, seeing people casually ride without helmets is genuinely bizarre. A helmet isn't an academic accessory. You don't get extra marks for not wearing one. It is there because <strong>your skull is not particularly good at absorbing impact.</strong></p>
+
+            <p>And then there are the cars. Some people drive as though the university road was inherited by their family. Students walking on the side? Invisible. People crossing? Minor inconvenience.</p>
+
+            <p>Water accumulated on the road? Perfect opportunity to create a campus-wide shower for pedestrians.</p>
+
+            <p>Nothing says civic responsibility like driving through a puddle and <strong>baptising someone</strong> who was simply trying to walk to class.</p>
+
+            <h2>Canteens: Eat, Leave, or Establish Permanent Residence?</h2>
+
+            <p>And then we reach the canteens.</p>
+
+            <p>The canteens are crowded enough already. But apparently, eating is only the first stage of the process.</p>
+
+            <p>After finishing the food, some people settle down at the table for hours.</p>
+
+            <p>Games.<br>
+            Chats.<br>
+            Scrolling.<br>
+            Laughing.<br>
+            Relaxing.</p>
+
+            <p>Meanwhile, someone is standing nearby holding a plate, looking around desperately for a place to sit.</p>
+
+            <p>At this point, I am not sure whether they are customers or <strong>hostages waiting for a table to be released.</strong></p>
+
+            <p>If you have finished eating and someone is waiting for a seat, is it really so difficult to leave?</p>
+
+            <p>Apparently, tables come with a <strong>lifetime occupancy guarantee.</strong></p>
+
+            <p>And then comes the waste.</p>
+
+            <p>People take tea, juice, snacks and other things elsewhere. They drink them. They eat. And then the cups, cans, plates and wrappers somehow mysteriously remain behind.</p>
+
+            <p>The person disappears.</p>
+
+            <p><strong>The garbage stays.</strong></p>
+
+            <p>A beautiful example of <strong>long-distance waste management.</strong></p>
+
+            <p>Look around the canteen. Look around the dustbins.</p>
+
+            <p>Paper plates.<br>
+            Plastic cups.<br>
+            Juice cans.<br>
+            Wrappers.<br>
+            Food waste.</p>
+
+            <p>And sometimes the dustbin itself is sitting there.</p>
+
+            <p>Right there.</p>
+
+            <p>Within reach.</p>
+
+            <p>Yet somehow the garbage manages to land everywhere <strong>except inside it.</strong></p>
+
+            <p>At this point, I am beginning to think that the dustbin needs better PR.</p>
+
+            <p>Maybe we need to put a sign on it:</p>
+
+            <blockquote>
+                “I am not dangerous. You can put your garbage inside me.”
+            </blockquote>
+
+            <p>Or perhaps an orientation programme:</p>
+
+            <blockquote>
+                “Introduction to Dustbins: An Essential Guide for University Students.”
+            </blockquote>
+
+            <p>Maybe a two-credit course would help.</p>
+
+            <p>Because apparently four years of university education isn't enough to teach us where a used paper plate goes.</p>
+
+            <h2>And This Is Supposed to Be the Educated Crowd?</h2>
+
+            <p>This is what frustrates me the most.</p>
+
+            <p>We are university students. We proudly call ourselves educated. We talk about becoming scientists, researchers, engineers, teachers, administrators, entrepreneurs and professionals.</p>
+
+            <p>We talk about changing society. We discuss climate change, sustainability, public policy, social responsibility, development and the future of humanity.</p>
+
+            <p>But somehow the great challenge standing between us and a better society is:</p>
+
+            <blockquote>
+                “Please put your garbage in the dustbin.”
+            </blockquote>
+
+            <p>Maybe before we start saving the planet, we should stop littering the campus.</p>
+
+            <p>Before we talk about public safety, perhaps we should wear a helmet.</p>
+
+            <p>Before we complain about traffic, perhaps we should stop driving on the wrong side.</p>
+
+            <p>Before demanding better facilities, perhaps we should stop destroying the ones we already have.</p>
+
+            <p>Before calling ourselves educated, perhaps we should understand that other people also have the right to study, walk, eat and live peacefully.</p>
+
+            <p>Because education is not just the ability to pass an examination.</p>
+
+            <p>You can have a degree hanging on your wall and still have absolutely no sense of how to behave in a shared space.</p>
+
+            <p><strong>A degree can certify what you know. It cannot certify that you know how to live with other people.</strong></p>
+
+            <p>And perhaps that is what civic sense really is.</p>
+
+            <p>Not some complicated philosophy.<br>
+            Not a subject requiring a textbook.<br>
+            Not something that needs a professor.</p>
+
+            <p>Just the basic understanding that:</p>
+
+            <p><strong>This campus is not yours.</strong></p>
+
+            <p><strong>It is ours.</strong></p>
+
+            <p>The road is not your personal race track.</p>
+
+            <p>The reading hall is not your private lounge.</p>
+
+            <p>The canteen table is not your permanent residence.</p>
+
+            <p>The hostel corridor is not your personal garbage bin.</p>
+
+            <p>And the world does not stop existing simply because you have decided that your convenience matters more than everyone else's.</p>
+
+            <p>Maybe that is the real education we are missing.</p>
+
+            <p><strong>Learning that other people exist.</strong></p>
+        `
+}
+
 };
 
 // Function to load an article
