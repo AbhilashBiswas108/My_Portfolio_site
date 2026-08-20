@@ -8,6 +8,9 @@
     min-height: 60vh;
 }
 
+
+/* Article width */
+
 .article-content .container {
     max-width: 800px;
 }
@@ -31,7 +34,7 @@
 
 .article-meta {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
     border-bottom: 2px solid #e5e7eb;
@@ -40,6 +43,7 @@
 
     font-size: 0.95rem;
 }
+
 
 .article-meta span {
     display: flex;
@@ -59,12 +63,11 @@
 }
 
 
-/* =========================================================
-   HEADINGS
-========================================================= */
+/* Headings */
 
 #article-display .article-body h2 {
     font-size: 1.8rem;
+
     color: #2563eb;
 
     margin-top: 2.5rem;
@@ -73,45 +76,42 @@
     line-height: 1.4;
 }
 
+
 #article-display .article-body h3 {
     font-size: 1.4rem;
+
     color: #667eea;
 
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 0.8rem;
-
-    line-height: 1.4;
 }
 
 
-/* =========================================================
-   PARAGRAPHS
-========================================================= */
+/* Paragraphs */
 
 #article-display .article-body p {
     margin-bottom: 1.5rem;
+
     text-align: justify;
 }
 
 
-/* =========================================================
-   LISTS
-========================================================= */
+/* Lists */
 
 #article-display .article-body ul,
 #article-display .article-body ol {
     margin-bottom: 1.5rem;
+
     margin-left: 2rem;
 }
+
 
 #article-display .article-body li {
     margin-bottom: 0.5rem;
 }
 
 
-/* =========================================================
-   BLOCKQUOTES
-========================================================= */
+/* Blockquote */
 
 #article-display .article-body blockquote {
     border-left: 4px solid #2563eb;
@@ -126,21 +126,19 @@
 }
 
 
-/* =========================================================
-   HORIZONTAL LINE
-========================================================= */
+/* Horizontal line */
 
 #article-display .article-body hr {
+    margin: 3rem 0;
+
     border: none;
 
     border-top: 1px solid #e5e7eb;
-
-    margin: 3rem 0;
 }
 
 
 /* =========================================================
-   LOADING MESSAGE
+   LOADING
 ========================================================= */
 
 .loading {
@@ -164,110 +162,22 @@
     padding: 4rem 1rem;
 }
 
-.article-error h2 {
-    color: #2563eb;
 
+.article-error h2 {
+    color: #dc2626;
     margin-bottom: 1rem;
 }
 
-.article-error p {
-    color: #666;
-
-    margin-bottom: 1.5rem;
-}
 
 .article-error a {
     color: #2563eb;
-
-    font-weight: 600;
 
     text-decoration: none;
 }
 
 
-/* =========================================================
-   OTHER ARTICLES
-========================================================= */
-
-.article-navigation {
-    padding: 4rem 0;
-
-    background: #f8fafc;
-}
-
-.article-navigation h3 {
-    text-align: center;
-
-    font-size: 2rem;
-
-    margin-bottom: 2rem;
-}
-
-.article-nav-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 1.5rem;
-}
-
-.article-nav-card {
-    background: #fff;
-
-    padding: 1.5rem;
-
-    border-radius: 10px;
-
-    box-shadow:
-        0 4px 15px rgba(0, 0, 0, 0.08);
-
-    cursor: pointer;
-
-    transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
-}
-
-.article-nav-card:hover {
-    transform: translateY(-4px);
-
-    box-shadow:
-        0 8px 20px rgba(0, 0, 0, 0.12);
-}
-
-.article-nav-card h4 {
-    color: #2563eb;
-
-    font-size: 1.2rem;
-
-    margin-bottom: 0.7rem;
-}
-
-.article-nav-card p {
-    color: #555;
-
-    line-height: 1.6;
-}
-
-.article-nav-card .nav-date {
-    color: #777;
-
-    font-style: italic;
-
-    margin-bottom: 0.7rem;
-}
-
-.article-nav-card .read-more {
-    display: inline-block;
-
-    margin-top: 0.8rem;
-
-    color: #2563eb;
-
-    font-size: 0.9rem;
-
-    font-weight: 600;
+.article-error a:hover {
+    text-decoration: underline;
 }
 
 
@@ -281,21 +191,11 @@
         padding: 3rem 1rem;
     }
 
-    .article-content .container {
-        max-width: 100%;
-    }
 
     #article-display h1 {
         font-size: 2rem;
     }
 
-    .article-meta {
-        gap: 0.8rem;
-
-        flex-wrap: wrap;
-
-        font-size: 0.9rem;
-    }
 
     #article-display .article-body {
         font-size: 1rem;
@@ -303,184 +203,16 @@
         line-height: 1.75;
     }
 
+
     #article-display .article-body h2 {
         font-size: 1.5rem;
-
-        margin-top: 2rem;
     }
 
-    #article-display .article-body h3 {
-        font-size: 1.25rem;
-    }
-
-    #article-display .article-body p {
-        text-align: left;
-    }
-
-    #article-display .article-body blockquote {
-        margin: 1.5rem 0;
-
-        padding-left: 1rem;
-    }
-
-    .article-navigation {
-        padding: 3rem 1rem;
-    }
-
-    .article-navigation h3 {
-        font-size: 1.7rem;
-    }
-
-    .article-nav-grid {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-
-/* =========================================================
-   SMALL MOBILE PHONES
-========================================================= */
-
-@media (max-width: 480px) {
-
-    .article-content {
-        padding: 2.5rem 1rem;
-    }
-
-    #article-display h1 {
-        font-size: 1.75rem;
-    }
-
-    #article-display .article-body {
-        font-size: 0.98rem;
-    }
 
     .article-meta {
-        font-size: 0.85rem;
+        gap: 1rem;
+
+        flex-wrap: wrap;
     }
 
-    .article-nav-card {
-        padding: 1.2rem;
-    }
-
-}
-#article-display .article-body code {
-    background: #f3f4f6;
-    padding: 0.2rem 0.5rem;
-    border-radius: 3px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.95rem;
-}
-
-#article-display .article-body pre {
-    background: #1f2937;
-    color: #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    overflow-x: auto;
-    margin: 1.5rem 0;
-}
-
-#article-display .article-body pre code {
-    background: transparent;
-    padding: 0;
-    color: #fff;
-}
-
-/* Article Navigation Section */
-.article-navigation {
-    padding: 5rem 0;
-    background: #f9fafb;
-}
-
-.article-navigation h3 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: #333;
-}
-
-.article-nav-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-}
-
-.article-nav-card {
-    background: #fff;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
-}
-
-.article-nav-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    border-color: #2563eb;
-}
-
-.article-nav-card.active {
-    border-color: #2563eb;
-    background: #f0f7ff;
-}
-
-.article-nav-card h4 {
-    font-size: 1.3rem;
-    color: #2563eb;
-    margin-bottom: 0.5rem;
-}
-
-.article-nav-card .nav-date {
-    font-size: 0.85rem;
-    color: #888;
-    margin-bottom: 0.8rem;
-    font-style: italic;
-}
-
-.article-nav-card p {
-    color: #555;
-    font-size: 0.95rem;
-    line-height: 1.6;
-}
-
-/* Loading State */
-.loading {
-    text-align: center;
-    padding: 3rem;
-    color: #666;
-}
-
-.loading::after {
-    content: '...';
-    animation: dots 1.5s steps(4, end) infinite;
-}
-
-@keyframes dots {
-    0%, 20% { content: '.'; }
-    40% { content: '..'; }
-    60%, 100% { content: '...'; }
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    #article-display h1 {
-        font-size: 2rem;
-    }
-
-    #article-display .article-body {
-        font-size: 1rem;
-    }
-
-    .article-meta {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .article-nav-grid {
-        grid-template-columns: 1fr;
-    }
 }
