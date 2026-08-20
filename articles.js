@@ -1271,35 +1271,84 @@ document.addEventListener("DOMContentLoaded", function () {
 
 };
 
-// Function to load an article
+// ============================================================
+// LOAD ARTICLE
+// ============================================================
+
 function loadArticle(articleId) {
-    const article = articles[articleId];
-    const displayDiv = document.getElementById('article-display');
-    
-    if (!article) {
-        displayDiv.innerHTML = '<p class="loading">Article not found.</p>';
+
+    const displayDiv = document.getElementById("article-display");
+
+    if (!displayDiv) {
+        console.error("article-display element not found.");
         return;
     }
 
-    // Scroll to top smoothly
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const article = articles[articleId];
 
-    // Display the article
+    if (!article) {
+
+        displayDiv.innerHTML = `
+            <div class="article-error">
+                <h2>Article not found</h2>
+                <p>The requested article does not exist.</p>
+                <a href="index.html#articles">
+                    ← Back to Articles
+                </a>
+            </div>
+        `;
+
+        return;
+    }
+
     displayDiv.innerHTML = `
-        <h1>${article.title}</h1>
-        <div class="article-meta">
-            <span>📅 ${article.date}</span>
-            <span>✍️ ${article.author}</span>
-        </div>
-        <div class="article-body">
-            ${article.content}
-        </div>
+        <article class="article">
+
+            <h1>${article.title}</h1>
+
+            <div class="article-meta">
+                <span>${article.date}</span>
+                <span>•</span>
+                <span>${article.author}</span>
+            </div>
+
+            <div class="article-body">
+                ${article.content}
+            </div>
+
+        </article>
     `;
 
-    // Update active state in navigation
-    const navCards = document.querySelectorAll('.article-nav-card');
-    navCards.forEach((card, index) => {
-        if (index + 1 === articleId) {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+
+// ============================================================
+// AUTOMATICALLY LOAD ARTICLE FROM URL
+// ============================================================
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const params = new URLSearchParams(window.location.search);
+
+    const articleId = params.get("id");
+
+    console.log("Article ID:", articleId);
+
+    if (articleId && articles[articleId]) {
+
+        loadArticle(articleId);
+
+    } else {
+
+        loadArticle(1);
+
+    }
+
+});
             card.classList.add('active');
         } else {
             card.classList.remove('active');
