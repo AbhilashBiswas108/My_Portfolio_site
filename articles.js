@@ -62,8 +62,7 @@ const articles = {
             </p>
         `
     }
-
-        4: {
+    4: {
         title: "Civic Sense: Apparently an Advanced Course",
         date: "August 20, 2026",
         author: "Abhilash Biswas",
@@ -99,82 +98,6 @@ const articles = {
             <h2>Reading Hall: Silent Study, Loud Humanity</h2>
 
             <p>Then comes the reading hall. A place specifically designed for reading and studying. You would think the concept would be fairly straightforward:</p>
-
-            <p><strong>You enter → you study → you remain quiet → you leave.</strong></p>
-
-            <p>Apparently, that is an unnecessarily complicated algorithm.</p>
-
-            <p>Some people come to enjoy the AC. Fine. I have no objection. If the AC is the primary attraction, congratulations—you have found an expensive library-shaped cooling centre. But please don't turn it into a social club.</p>
-
-            <p>Phones ring.</p>
-            <p>They ring again.</p>
-
-            <p>Someone's ringtone is loud enough to conduct its own seminar. And after the phone rings, instead of immediately silencing it, the person sometimes casually answers it and starts having a conversation.</p>
-
-            <p>Then there are whispers. Then slightly louder whispers. Then laughter. And before you know it, the reading hall has evolved from a place for reading into a place where everyone except the person trying to study is having a wonderful time.</p>
-
-            <p>And then we have the <strong>seat reservation system.</strong></p>
-
-            <p>Except there isn't one. Because apparently some people have invented their own.</p>
-
-            <p>Leave your laptop.<br>
-            Leave your bag.<br>
-            Leave your book.<br>
-            Leave your water bottle.<br>
-            Disappear.</p>
-
-            <p>One hour.<br>
-            Two hours.<br>
-            Three hours.<br>
-            Four hours.</p>
-
-            <p>At this point, I am not sure whether you are studying or whether your belongings are pursuing a PhD in seat occupation.</p>
-
-            <p>Half the seats may be empty, but every table has someone's belongings guarding it like a territorial animal.</p>
-
-            <p>And yes, I understand that sometimes you need to leave for lunch, tea, an urgent matter, or whatever else. But if you disappear for four or five hours, perhaps the seat has ceased to be <strong>your seat.</strong></p>
-
-            <p>It has become <strong>an abandoned archaeological site.</strong></p>
-
-            <p>Meanwhile, someone else is standing outside waiting for a place to study. This is not about enforcing rules for the sake of rules. It is about understanding that other people exist.</p>
-
-            <p><strong>A surprisingly advanced concept, apparently.</strong></p>
-
-            <h2>University Roads: Welcome to the Formula One Campus</h2>
-
-            <p>Then we have the roads.</p>
-
-            <p>Ah, the roads.</p>
-
-            <p>At this point, I am convinced that the university is secretly conducting a Formula One training programme.</p>
-
-            <p>People drive at 50–60 km/h, sometimes more, on roads where students are constantly walking, crossing and moving between departments, hostels and canteens.</p>
-
-            <p>And then there are the motorcycles. Some people apparently believe that a perfectly functional motorcycle is incomplete unless its silencer is loud enough to announce its arrival to the entire campus.</p>
-
-            <p>Why quietly arrive at a destination when you can first inform the physics department, chemistry department, hostel block and possibly the neighbouring district?</p>
-
-            <p>Some modified KTMs and Bullets sound less like vehicles and more like <strong>mobile declarations of war against silence.</strong></p>
-
-            <p>And then comes the driving.</p>
-
-            <p>Wrong side of the road.<br>
-            Sudden overtaking.<br>
-            High speed near crossings.<br>
-            Speeding near the canteen.<br>
-            Speeding where students are walking.</p>
-
-            <p>The university buses are another story. These are vehicles carrying large numbers of students, yet sometimes they are driven with a level of aggression that makes you wonder whether the driver is transporting students or participating in a rally.</p>
-
-            <p>And the students aren't exactly helping either. The moment the bus arrives, everyone rushes towards it.</p>
-
-            <p>Pushing.<br>
-            Pulling.<br>
-            Dragging.<br>
-            Trying to get inside first.<br>
-            Trying to get a seat.</p>
-
-            <p>The desperation is impressive. Sometimes it looks like everyone has just been informed that this is the <strong>last meal available for the next seven days.</strong></p>
 
             <p>Can't we just let people get down first?</p>
 
