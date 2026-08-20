@@ -7,7 +7,7 @@
 
     <meta name="description" content="Articles by Abhilash Biswas">
 
-    <title>Articles - Abhilash Biswas</title>
+    <title>Article - Abhilash Biswas</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
         rel="stylesheet"
     >
 
-    <!-- Stylesheets -->
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="article-style.css">
 </head>
@@ -36,6 +36,7 @@
                 </a>
 
                 <ul class="nav-menu">
+
                     <li>
                         <a href="index.html#about">About</a>
                     </li>
@@ -51,6 +52,7 @@
                     <li>
                         <a href="index.html#contact">Contact</a>
                     </li>
+
                 </ul>
 
             </div>
@@ -59,13 +61,13 @@
     </nav>
 
 
-    <!-- Article Content -->
+    <!-- Article -->
     <main class="article-content">
 
         <div class="container">
 
             <div id="article-display">
-                <!-- Article will be loaded here by JavaScript -->
+                <p class="loading">Loading article...</p>
             </div>
 
         </div>
@@ -73,8 +75,147 @@
     </main>
 
 
-    <!-- Article Navigation -->
+    <!-- Other Articles -->
     <section class="article-navigation">
+
+        <div class="container">
+
+            <h3>Other Articles</h3>
+
+            <div class="article-nav-grid">
+
+                <!-- Article 1 -->
+                <div
+                    class="article-nav-card"
+                    onclick="loadArticle(1)"
+                    role="button"
+                    tabindex="0"
+                >
+
+                    <h4>Can I Know?</h4>
+
+                    <p class="nav-date">
+                        January 28, 2026
+                    </p>
+
+                    <p>
+                        I have tried to analyse the self.
+                    </p>
+
+                    <span class="read-more">
+                        Read Article →
+                    </span>
+
+                </div>
+
+
+                <!-- Article 2 -->
+                <div
+                    class="article-nav-card"
+                    onclick="loadArticle(2)"
+                    role="button"
+                    tabindex="0"
+                >
+
+                    <h4>
+                        Why and How to develop a Scientific Temperament
+                    </h4>
+
+                    <p class="nav-date">
+                        February 01, 2026
+                    </p>
+
+                    <p>
+                        As a human of 21st Century and a student of Science,
+                        I must try and build a scientific temperament.
+                    </p>
+
+                    <span class="read-more">
+                        Read Article →
+                    </span>
+
+                </div>
+
+
+                <!-- Article 3 -->
+                <div
+                    class="article-nav-card"
+                    onclick="loadArticle(3)"
+                    role="button"
+                    tabindex="0"
+                >
+
+                    <h4>Remember?</h4>
+
+                    <p class="nav-date">
+                        February 01, 2026
+                    </p>
+
+                    <p>
+                        A short poem.
+                    </p>
+
+                    <span class="read-more">
+                        Read Article →
+                    </span>
+
+                </div>
+
+
+                <!-- Article 4 -->
+                <div
+                    class="article-nav-card"
+                    onclick="loadArticle(4)"
+                    role="button"
+                    tabindex="0"
+                >
+
+                    <h4>
+                        Civic Sense: Apparently an Advanced Course
+                    </h4>
+
+                    <p class="nav-date">
+                        August 20, 2026
+                    </p>
+
+                    <p>
+                        My thoughts and experiences.
+                    </p>
+
+                    <span class="read-more">
+                        Read Article →
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                &copy; 2026 Abhilash Biswas. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- IMPORTANT:
+         This filename must be exactly "articles.js" -->
+    <script src="articles.js"></script>
+
+</body>
+
+</html>    <section class="article-navigation">
 
         <div class="container">
 
